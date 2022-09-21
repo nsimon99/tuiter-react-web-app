@@ -1,0 +1,60 @@
+* {
+    background-color: black;
+}
+
+.wd-border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-padding-left {
+    padding-left: 16px;
+}
+.wd-padding-all-around {
+    padding: 16px;
+}
+.wd-search {
+    border-radius: 50px;
+    padding-left: 25px;
+    background-color: gray;
+    color: white;
+    min-width: 70%;
+}
+.wd-gear {
+    padding-left: 350px ;
+    color: blue;
+
+}
+
+.wd-for-you {
+    font-size: 15px;
+    color: rgb(29,161,242);
+}
+.wd-other-links {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+.wd-for-you-border {
+    border-bottom: 1px solid rgb(29,161,242) ;
+}
+.wd-trending-font {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-articles{
+    color: white;
+    font-size: 15px;
+}
+.wd-author-font {
+    color: white;
+    font-size: 13px;
+}
+
+.wd-trending-images {
+   float: right;
+    padding-right: 16px;
+    border-radius: 5px;
+}
+
