@@ -122,6 +122,14 @@
 
 .wd-like-text {
     color: red;
-    left: 242px;
+    left: 250px;
     top: 575px;
 }
+
+.wd-upload-icon {
+    color: lightgray;
+    top: 575px;
+    left: 304px;
+
+}
+
