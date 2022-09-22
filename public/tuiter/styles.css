@@ -27,6 +27,10 @@
     color: white;
 }
 
+.wd-light-gray {
+    color: lightgray;
+}
+
 .wd-bold {
     font-weight: bold;
 }
