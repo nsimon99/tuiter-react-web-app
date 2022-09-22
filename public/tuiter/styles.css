@@ -1,0 +1,39 @@
+* {
+    background-color: black;
+}
+
+.wd-border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-padding-left {
+    padding-left: 16px;
+}
+.wd-padding-right {
+    float: right;
+    padding-right: 16px;
+}
+.wd-padding-all-around {
+    padding: 16px;
+}
+
+.wd-font-size-15 {
+    font-size: 15px;
+}
+
+.wd-white-font {
+    color: white;
+}
+
+.wd-bold {
+    font-weight: bold;
+}
+.wd-relative {
+    position: relative;
+}
+
+.wd-absolute {
+    position: absolute;
+}
