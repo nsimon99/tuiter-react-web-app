@@ -41,3 +41,7 @@
 .wd-absolute {
     position: absolute;
 }
+.wd-tabs{
+    display:flex;
+    list-style:none;
+}
