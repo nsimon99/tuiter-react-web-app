@@ -1,5 +1,10 @@
 
+.wd-avatar-image{
 
+    width: 48px;
+    height: 48px;
+
+}
 
 .wd-search {
     border-radius: 50px;
@@ -14,6 +19,9 @@
 
 }
 
+.wd-w {
+    width: 205px;
+}
 .wd-for-you {
     font-size: 15px;
     color: rgb(29,161,242);

@@ -9,83 +9,185 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="../styles.css"
           rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"/>
 </head>
 
 <body>
+<div class="ps-5 me-5  mt-1 row">
+
+        <div class="col-2">
+<ul class="list-group  ">
+    <li class="list-group-item fa-twitter "></li>
+    <li class="list-group-item fa-home ">Home</li>
+    <li class="list-group-item active fa-hashtag ">Explore</li>
+    <li class="list-group-item fa fa-list ">Lists</li>
+    <li class="list-group-item fa fa-bell ">Notification</li>
+    <li class="list-group-item fa fa-envelope ">Messages</li>
+    <li class="list-group-item fa fa-bookmark ">Bookmarks</li>
+    <li class="list-group-item fa fa-user ">Profile</li>
+    <li class="list-group-item fa fa-caret-down ">More</li>
+</ul>
+<button class="btn btn-primary mt-1 wd-w">
+    Tuit
+</button>
+        </div>
+    <div class="w-50 col-6 mx-auto">
+        <div class="input-group">
+  <span>
+    <i class="fa fa-search" aria-hidden="true"></i>
+  </span>
+            <input type="text" class="form-control rounded-pill" placeholder="Search" />
+            <i class="fa fa-cog"  style="color: blue" aria-hidden="true"></i>
+        </div>
+        <ul class="nav nav-tabs mt-1">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">For You</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1">Sports</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1">Entertainment</a>
+            </li>
+        </ul>
+        <div class="position-relative">
+        <img  class="w-100 " src="../../image/teslabot.jpg"/>
+        <h1 class="font-weight-bold text-white position-absolute bottom-0 start-0">Tesla Bot</h1>
+        </div>
+        <div class= "border">
+            <img src="../../image/cnbc.jpeg" class="w-25 rounded float-end "/>
+            <div>CNBC</div>
+            <div>Biden's climate change bill may produce your next job</div>
+            <div>105.5K Tuits</div><br><br><br>
+
+
+        </div>
+        <div class= "border">
+            <br>
+            <img src="../../image/covid.jpeg"class="w-25 rounded float-end "/>
+            <div>COVID-19 - Live</div>
+            <div>Covid-19 News and Update for Tampa</div><br><br><br><br>
+        </div>
+        <div class= "border">
+            </br>
+            <img class="w-25 rounded float-end " src="../../image/stanley.jpg"/>
+            <div>Stanley Cup - Live</div>
+            <div>Tampa Bay Lightning Vs. Boston Bruins Live Updates</div><br><br><br><br>
+        </div>
+
+
+    </div>
+
+    <div class="col-3">
+        <ul class="list-group  ">
+            <li class="list-group-item">Who To Follow</li>
+            <li class="list-group-item">
+                <img class="wd-avatar-image rounded-circle float-start" src="../../image/avatar.jpeg"/>
+                <div>Avatar</div>
+                <div>@avatar</div>
+                <div class="d-flex align-items-end">
+                <button class="btn btn-primary  ">
+                    Follow
+                </button>
+                </div>
+            </li>
+            <li class="list-group-item   ">Explore</li>
+            <li class="list-group-item  ">Lists</li>
+            <li class="list-group-item  ">Notification</li>
+            <li class="list-group-item  ">Messages</li>
+            <li class="list-group-item  ">Bookmarks</li>
+            <li class="list-group-item  ">Profile</li>
+            <li class="list-group-item  ">More</li>
+        </ul>
+    </div>
+
+
+</div>
+<!--
 
 <div class= "wd-border wd-padding-all-around ">
 
+
 <input class= "wd-search"
 type="text"
-       id="wd-search"
-       placeholder="Search Tuiter"
-       value="Search Tuiter"/>
-    <a class="wd-gear" href="exlore-settings.html">&#x2699</a></br>
+      id="wd-search"
+      placeholder="Search Tuiter"
+      value="Search Tuiter"/>
+   <a class="wd-gear" href="exlore-settings.html">&#x2699</a></br>
 
-    <div class="wd-tabs ">
-        <a class=" wd-for-you wd-padding-all-around "  href="for-you.html">For You</a>
-      <a class ="wd-other-links wd-padding-all-around "
-             href="trending.html">Trending </a>
-    <a class ="wd-other-links wd-padding-all-around"
-             href="covid-19.html">COVID-19</a>
+   <div class="wd-tabs ">
+       <a class=" wd-for-you wd-padding-all-around "  href="for-you.html">For You</a>
+     <a class ="wd-other-links wd-padding-all-around "
+            href="trending.html">Trending </a>
+   <a class ="wd-other-links wd-padding-all-around"
+            href="covid-19.html">COVID-19</a>
 
-    <a class ="wd-other-links wd-padding-all-around"
-              href="news.html">News</a>
+   <a class ="wd-other-links wd-padding-all-around"
+             href="news.html">News</a>
 
-    <a class ="wd-other-links wd-padding-all-around"
-             href="sports.html">Sports </a>
+   <a class ="wd-other-links wd-padding-all-around"
+            href="sports.html">Sports </a>
 
-    <a
-            class ="wd-other-links wd-padding-all-around"
-              href="entertainmnt.html">Entertainment</a>
+   <a
+           class ="wd-other-links wd-padding-all-around"
+             href="entertainmnt.html">Entertainment</a>
 
 
 </div>
 
-    <li class="wd-for-you-border"/>
+   <li class="wd-for-you-border"/>
 </div>
 
 <div class= "wd-border wd-padding-left">
 
 
-    </br>
+
+   </br>
 <div class="wd-trending-font ">Trending in Science</div>
-    <h1 class="wd-articles">Starships</h1>
-    <div class="wd-trending-font ">55.5K Tuits</div> </br>
-    <div class="wd-trending-font ">Sports- Trending</div>
-    <h1 class="wd-articles ">Joe Rogan</h1>
-    <div class="wd-trending-font ">10.5K Tuits</div> <br>
+   <h1 class="wd-articles">Starships</h1>
+   <div class="wd-trending-font ">55.5K Tuits</div> </br>
+   <div class="wd-trending-font ">Sports- Trending</div>
+   <h1 class="wd-articles ">Joe Rogan</h1>
+   <div class="wd-trending-font ">10.5K Tuits</div> <br>
 </div>
 <div class= "wd-border wd-padding-left">
-    <br>
-    <img class="wd-trending-images wd-padding-right" src="../../image/CNN.jpeg"/>
-    <h1 class="wd-author-font  wd-title-image ">The New York Times</h1>
-    <h1 class="wd-articles ">CNN's Chris Cuomo conundrum: A star anchor with a brother in trouble</h1>
-    <div class="wd-trending-font ">155.5K Tuits</div><br><br>
+
+   <br>
+   <img class="wd-trending-images wd-padding-right" src="../../image/CNN.jpeg"/>
+   <h1 class="wd-author-font  wd-title-image ">The New York Times</h1>
+   <h1 class="wd-articles ">CNN's Chris Cuomo conundrum: A star anchor with a brother in trouble</h1>
+   <div class="wd-trending-font ">155.5K Tuits</div><br><br>
 </div>
 <div class= "wd-border wd-padding-left">
-    </br>
-    <img class="wd-trending-images wd-padding-right" src="../../image/cnbc.jpeg"/>
-    <div class="wd-author-font  wd-title-image">CNBC</div>
-    <h1 class="wd-articles ">Biden's climate change bill may produce your next job</h1>
-    <div class="wd-trending-font ">105.5K Tuits</div><br><br>
-    <br>
+   </br>
+   <img class="wd-trending-images wd-padding-right" src="../../image/cnbc.jpeg"/>
+   <div class="wd-author-font  wd-title-image">CNBC</div>
+   <h1 class="wd-articles ">Biden's climate change bill may produce your next job</h1>
+   <div class="wd-trending-font ">105.5K Tuits</div><br><br>
+   <br>
 </div>
 <div class= "wd-border wd-padding-left">
-    <br>
-    <img class="wd-trending-images wd-padding-right" src="../../image/covid.jpeg"/>
-    <div class="wd-trending-font ">COVID-19 - Live</div>
-    <h1 class="wd-articles ">Covid-19 News and Update for Tampa</h1><br><br><br><br>
+   <br>
+   <img class="wd-trending-images wd-padding-right" src="../../image/covid.jpeg"/>
+   <div class="wd-trending-font ">COVID-19 - Live</div>
+   <h1 class="wd-articles ">Covid-19 News and Update for Tampa</h1><br><br><br><br>
 </div>
 <div class= "wd-border wd-padding-left">
-    </br>
-    <img class="wd-trending-images wd-padding-right" src="../../image/stanley.jpg"/>
-    <div class="wd-trending-font ">Stanley Cup - Live</div>
-    <h1 class="wd-articles ">Tampa Bay Lightning Vs. Boston Bruins Live Updates</h1><br><br><br><br>
+   </br>
+   <img class="wd-trending-images wd-padding-right" src="../../image/stanley.jpg"/>
+   <div class="wd-trending-font ">Stanley Cup - Live</div>
+   <h1 class="wd-articles ">Tampa Bay Lightning Vs. Boston Bruins Live Updates</h1><br><br><br><br>
 </div>
 
 
-
+-->
 
 
 </body>
