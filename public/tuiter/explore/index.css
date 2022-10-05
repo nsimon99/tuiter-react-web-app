@@ -1,4 +1,10 @@
+* {
+    background-color: black;
+}
 
+.bd-blue{
+    background-color: #bfe2f3;
+}
 .wd-avatar-image{
 
     width: 48px;
@@ -71,6 +77,4 @@
     height: 100px;
     border-radius: 5px;
 }
-
-wd
 
