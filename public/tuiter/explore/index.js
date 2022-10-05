@@ -1,5 +1,7 @@
 
 import NavigationSidebar from "../NavigationSidebar/index.js";
+import WhoToFollowList from "../WhoToFollowList/index.js";
+
 
 
 (function ($) {
@@ -12,9 +14,8 @@ import NavigationSidebar from "../NavigationSidebar/index.js";
    <div class="col-10 col-lg-7 col-xl-6  text-white">
     <h3>ExploreComponent</h3>
    </div>
-   <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4  text-white">
-   
-    <h3>WhoToFollowList </h3>
+   <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4  text-white ">
+     ${WhoToFollowList()}
    </div>
   </div>
  `);
