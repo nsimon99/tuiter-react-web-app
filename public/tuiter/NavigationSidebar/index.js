@@ -26,7 +26,7 @@ const NavigationSidebar = () => {
         <i class="fa fa-caret-down bg-dark" style="color: white" aria-hidden="true"></i>
         More</li>
 </ul>
-<button class="btn btn-primary mt-1 wd-w">
+<button class="btn btn-primary mt-1 ">
     Tuit
 </button>
         </div>

@@ -12,6 +12,10 @@
 
 }
 
+.wd-min-height {
+    min-height: 34%;
+}
+
 .wd-parent { white-space: nowrap; }
 .wd-child { display: inline-block; }
 
