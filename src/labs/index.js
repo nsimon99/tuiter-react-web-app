@@ -1,11 +1,12 @@
 import Assignment6 from "./a6";
-import nav from "../nav";
+
 
 import TodoList from "./a6/todo/todo-list";
+import Nav from "../nav";
 function Labs() {
     return (
         <div>
-            <nav/>
+            <Nav/>
             <Assignment6/>
             <TodoList/>
         </div>
