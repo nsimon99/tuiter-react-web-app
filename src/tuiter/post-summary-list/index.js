@@ -1,5 +1,5 @@
 import React from "react";
-import postsArray from './posts';
+import postArray from "./posts.json";
 import PostSummaryItem
     from "./post-summary-item";
 
@@ -7,10 +7,16 @@ const PostSummaryList = () => {
     return(
         <ul className="list-group">
             {
-                postsArray.map(post =>
-                    <PostSummaryItem post={post}/> )
-            }
+                postArray.map(post => {
+                    return (<React.Fragment key={post.title}>
+                        <PostSummaryItem post={post}/>
+                    </React.Fragment>); })
+                }
+
         </ul>
     );
 };
 export default PostSummaryList;
+
+
+
