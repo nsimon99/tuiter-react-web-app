@@ -1,6 +1,6 @@
-import {createSlice} from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit'
 
-const initialTodos = [
+const data = [
     {
         _id: "123",
         do: "Accelerate the world's transition to sustainable energy",
@@ -15,7 +15,7 @@ const initialTodos = [
 
 const todosSlice = createSlice({
     name: 'todos',
-    initialState: initialTodos,
+    initialState: data,
     reducers: {
         addTodo(state, action) {
             state.push({
@@ -24,28 +24,16 @@ const todosSlice = createSlice({
                 done: false
             });
         },
-
         deleteTodo(state, action) {
             const index = action.payload
             state.splice(index, 1)
         },
         todoDoneToggle(state, action) {
-            const todo = state.find((todo) =>
-                todo._id === action.payload)
+            const todo = state.find((todo) => todo._id === action.payload)
             todo.done = !todo.done
         }
-
     }
 });
 
-
-
-export const {
-    addTodo,
-    deleteTodo,
-    todoDoneToggle
-} = todosSlice.actions
+export const {addTodo, deleteTodo, todoDoneToggle} = todosSlice.actions
 export default todosSlice.reducer
-
-
-
