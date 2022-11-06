@@ -1,4 +1,6 @@
-const TuitStats = ({tuit}) => {
+import {updateTuitThunk} from "../../services/tuits-thunks";
+
+const TuitStats = ({tuit,dispatch}) => {
     return(
         <div className="row mt-3">
             <div className="col">
@@ -9,6 +11,7 @@ const TuitStats = ({tuit}) => {
                 <i className="bi bi-arrow-repeat me-2"></i>
                 {tuit.retuits}
             </div>
+
             <div className="col">
                 {
                     tuit.liked &&
@@ -20,6 +23,16 @@ const TuitStats = ({tuit}) => {
                 }
                 {tuit.likes}
             </div>
+            <div>
+                Likes: {tuit.likes}
+                <i onClick={() => dispatch(updateTuitThunk({
+                    ...tuit,
+                    likes: tuit.likes + 1
+                }))} className="bi bi-heart-fill me-2 text-danger"></i>
+            </div>
+
+
+
             <div className="col">
                 <i className="bi bi-share"></i>
             </div>
