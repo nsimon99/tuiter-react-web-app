@@ -11,7 +11,7 @@ const TuitsList = () => {
         state => state.tuitsData)
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(findTuitsThunk())
+        (findTuitsThunk())
     }, [])
 
 
