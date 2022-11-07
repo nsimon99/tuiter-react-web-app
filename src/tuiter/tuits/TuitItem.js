@@ -4,24 +4,21 @@ import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 
 import {useDispatch} from "react-redux";
-const TuitItem = (
-    {
-        tuit = {
-            "topic": "Space",
-            "userName": "SpaceX",
-            "time": "2h",
-            "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-            "image": "tesla.png"
-        }
-    }
-) => {
+const TuitItem = ( {
+                       tuit = {
+                           "id":"123",
+                           "topic": "Space",
+                           "userName": "SpaceX",
+                           "time": "2h",
+                           "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+                           "image": "tesla.png"
+                       }
+                   }) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuitThunk(id));
-
-
-
     }
+
     return(
     <li className="list-group-item">
         <div className="row">
