@@ -1,9 +1,8 @@
 import axios from 'axios';
-const TUITS_API = 'https://neha-tuiter-node-server-app.herokuapp.com'
-/*
-const TUITS_API2 = 'http://localhost:4000/api/tuits';
+const TUITS_API = 'https://neha-tuiter-node-server-app.herokuapp.com/api/tuits'
 
- */
+
+
 
 
 
