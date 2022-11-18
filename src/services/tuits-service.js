@@ -1,6 +1,12 @@
 import axios from 'axios';
-const API_BASE = process.env.REACT_APP_API_BASE;
-const TUITS_API = `${API_BASE}/tuits`;
+const TUITS_API = 'https://neha-tuiter-node-server-app.herokuapp.com'
+/*
+const TUITS_API2 = 'http://localhost:4000/api/tuits';
+
+ */
+
+
+
 
 
 export const createTuit = async (tuit) => {
@@ -27,6 +33,3 @@ export const updateTuit = async (tuit) => {
         .put(`${TUITS_API}/${tuit._id}`, tuit);
     return response.data;
 }
-
-
-
