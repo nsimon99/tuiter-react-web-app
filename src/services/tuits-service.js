@@ -1,5 +1,5 @@
 import axios from 'axios';
-const TUITS_API = 'https://neha-tuiter-node-server-app.herokuapp.com/api/tuits'
+const TUITS_API = 'https://tuiter-node-serber.onrender.com/api/tuits'
 
 
 
